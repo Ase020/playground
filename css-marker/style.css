@@ -1,0 +1,16 @@
+mark {
+  border-right-color: transparent;
+  background-image: linear-gradient(#dfecff, #dfecff);
+  background-repeat: no-repeat;
+
+  animation: highlight 1s forwards;
+}
+
+@keyframes highlight {
+  from {
+    background-size: 0%;
+  }
+  to {
+    background-size: 100%;
+  }
+}
